@@ -140,6 +140,26 @@ var data = [
 </div>
 						</code></pre>
 					</section>
+					<section>
+						<h3>Example de méthodes sur les Components :</h3>
+						<p><small>Le cycle de vie d'un Component est divisé en 3 états :</small></p>
+						<ul>
+							<small><li>Mounting：A été inséré dans le vrai DOM</li>
+							<li>Updating : Change de propriétés/valeurs</li>
+							<li>Unmounting : A été retiré du vrai DOM</li></small>
+						</ul>
+					</section>
+					<section>
+						<p>On utilise donc ces méthodes :</p>
+						<ul>
+							<small><li>componentWillMount()</li>
+							<li>componentDidMount()</li>
+							<li>componentWillUpdate(object nextProps, object nextState)</li>
+							<li>componentDidUpdate(object prevProps, object prevState)</li>
+							<li>componentWillUnmount()</li></small>
+						</ul>
+						<p><small>Les méthodes avec "Will" agissent avant le changement d'état du component, et celles avec "Did" agissent après.</small></p>
+					</section>
 				</section>
 				<section>
 					<h3>ReactJS ou AngularJS ?</h3>
